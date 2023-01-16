@@ -1,0 +1,61 @@
+
+.main {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size:  70px;
+}
+.grid-container{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid red;
+    margin: 40px;
+    background-color: pink;
+}
+
+.pictre{
+    height: 150px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.Saturn img{
+    height: 180px;
+    width: 280px;
+}
+.Saturn{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Des{
+    margin: 20px;
+}
+.Des h3{
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 105);
+}
+
+.Des h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+.btn{
+    background-color: rgb(11, 3, 44);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+    
+
+.btn:hover{
+    color: brown;
+}
